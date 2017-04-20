@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="1dp"
+             android:foreground="?selectableItemBackground">
+
+    <io.sunc.mj.widget.SquareImageView
+        android:id="@+id/iv_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="36dp"
+        android:scaleType="centerCrop"
+        android:foreground="?selectableItemBackground"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#88c7c7c7"
+    android:gravity="right"
+    android:padding="3dp"
+    >
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="63万"
+        android:gravity="center"
+        style="@style/ListItemSubTitleStyle"/>
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="薛之谦的音乐就是棒"
+        style="@style/ListItemTitleStyle"
+        android:background="@color/album_default_palette_color_light"
+        android:padding="3dp"
+        />
+
+
+</FrameLayout>
